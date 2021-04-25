@@ -1,6 +1,7 @@
 .squeeze{
   margin: auto;
-  max-width: 1200px
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
 nav{
@@ -17,7 +18,7 @@ nav{
 
 nav h2{
   display: inline-block;
-  padding-left: 25px;
+  padding-left: 0px;
   margin-top: 18px;
 }
 nav .navlinks{
@@ -75,3 +76,11 @@ nav .navlinks{
   text-align: center;
 }
 
+footer{
+  background: #222222;
+}
+
+.partner{
+  height: 100px;
+  overflow: hidden;
+}
