@@ -1,3 +1,22 @@
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+hr{
+  border: none;
+  border-bottom: dotted white 5px;
+  margin: 100px 40%;
+}
+
 .squeeze{
   margin: auto;
   max-width: 1200px;
@@ -27,7 +46,8 @@ nav .navlinks{
 
   padding: 20px;
 }
-nav a{
+
+a{
   color: white;
   text-decoration: none;
 
@@ -35,22 +55,23 @@ nav a{
   font-size: 1.5rem;
 }
 
-.navlinks a:first-child:before{
+a:first-child:before{
   content: "";
 }
 
-.navlinks a:before{
+a:before{
   content: " | ";
   margin: 0 10px;
   color: white;
 }
 
-.navlinks a:before:hover{
+a:before:hover{
   color: white;
 }
 
-nav a:hover{
+a:hover{
   color: mediumpurple;
+  text-decoration: none;
 }
 
 .banner{
@@ -69,12 +90,34 @@ nav a:hover{
 }
 
 .about{
-  height: 1000px;
   padding-top: 25px;
 }
+
 .about h1{
   text-align: center;
 }
+
+.about p{
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+#schools{
+  margin: 100px 0 0 0;
+  padding: 50px 0;
+  text-align: center;
+  background: rgb(14, 35, 163);
+  color: white;
+}
+
+#schools img{
+  height: 300px;
+
+  border-radius: 50%;
+  border: white solid 4px;
+}
+
+
 
 footer{
   background: #222222;
