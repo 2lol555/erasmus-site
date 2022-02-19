@@ -7,6 +7,17 @@ h1{
   color: #111;
 }
 
+.banner h1, .banner h2{
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+h1, h2{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+}
+
 p{
   font-size: 1.2rem;
   line-height: 1.5;
@@ -17,7 +28,10 @@ h2{
   color: #111;
 }
 
-
+.top-logo{
+  height: 78px;
+  margin-top: 5px;
+}
 
 hr{
   border: none;
@@ -28,20 +42,18 @@ hr{
 
 .squeeze{
   margin: auto;
-  max-width: 1200px;
+  max-width: 80%;
   padding: 0 20px;
 }
 
 nav{
   color: white;
-  height: 80px;
+  height: 90px;
   overflow: hidden;
   position: fixed;
 
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(255, 255, 255);
   width: 100%;
-
-  border-bottom: black solid 2px;
 }
 
 nav h2{
@@ -87,12 +99,16 @@ a:hover, a:focus{
 .banner{
   padding: 200px 100px;
   text-align: center;
-
-  background: #28527a;
+  width: 80%;
+  margin: auto;
+  background-image: url("https://www.youmatter.sk/img/header.jpg");
+  text-align: left;
 }
 
 .banner h1 {
   font-weight: bold;
+  width: 45%;
+  font-size: 3rem;
 }
 
 .about{
